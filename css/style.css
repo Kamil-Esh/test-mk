@@ -266,7 +266,7 @@ main .hero__btn:hover {
   left: 95%;
 }
 
-.draggable {
+.slick-track {
   height: 614px;
 }
 
