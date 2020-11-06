@@ -252,6 +252,7 @@ main .hero__btn:hover {
 
 .slider {
   position: relative;
+  min-height: 614px;
 }
 
 .slider .slick-prev {
@@ -264,10 +265,6 @@ main .hero__btn:hover {
   position: absolute;
   top: 110%;
   left: 95%;
-}
-
-.slick-track {
-  height: 614px;
 }
 
 .slick-dots li button:before {
