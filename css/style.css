@@ -252,7 +252,7 @@ main .hero__btn:hover {
 
 .slider {
   position: relative;
-  min-height: 614px;
+  min-height: 514px;
 }
 
 .slider .slick-prev {
