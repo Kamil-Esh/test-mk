@@ -32,3 +32,26 @@
         left: 180px;
     }
 }
+@media (max-width: 1200px) {
+    .trust .line__before::before {
+        display: none;
+    }
+    .carousel .slick-prev {
+        display: none;
+    }
+    .carousel .slick-next {
+        display:none;
+    }
+    .triangle__result {
+        flex-direction: column;
+    }
+    .triangle .desc__width {
+        min-width: unset;
+    }
+    .footer__offices::before {
+        display: none;
+    }
+    .testimonials__partners {
+        flex-wrap: wrap;
+    }
+}
