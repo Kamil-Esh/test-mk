@@ -51,8 +51,15 @@ img {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   line-height: 20px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #949494;
   margin-right: 13px;
+}
+
+.header__top_language {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
 }
 
 .header__top_rightside {
@@ -147,7 +154,7 @@ main .hero__desc {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #2d2e2f;
 }
 
 main .hero__btn {
@@ -197,7 +204,7 @@ main .hero__btn:hover {
 
 .owl-carousel .owl-prev {
   position: absolute;
-  bottom: 24%;
+  bottom: 21%;
   left: 392px;
   -webkit-transform: translate(50%, 50%);
           transform: translate(50%, 50%);
@@ -210,8 +217,8 @@ main .hero__btn:hover {
 
 .owl-carousel .owl-next {
   position: absolute;
-  bottom: 24%;
-  left: 449px;
+  bottom: 21%;
+  left: 451px;
   -webkit-transform: translate(50%, 50%);
           transform: translate(50%, 50%);
   outline: none !important;
@@ -358,7 +365,7 @@ main .hero__btn:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
   margin-left: 70px;
   padding-bottom: 60px;
 }
@@ -457,7 +464,7 @@ main .hero__btn:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
 }
 
 .col__p {
@@ -503,7 +510,7 @@ main .hero__btn:hover {
   font-size: 14px;
   line-height: 25px;
   letter-spacing: 0.01em;
-  color: rgba(0, 0, 0, 0.8);
+  color: #b2b2b2;
 }
 
 .testimonials__link {
@@ -513,7 +520,7 @@ main .hero__btn:hover {
   line-height: 20px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5);
+  color: #afafaf;
   display: inline-block;
   margin-bottom: 65px;
 }
@@ -567,7 +574,7 @@ main .hero__btn:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
   margin-right: 100px;
 }
 
@@ -609,6 +616,13 @@ main .hero__btn:hover {
   margin-bottom: 107px;
 }
 
+.testimonials__partners img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 .triangle {
   padding-top: 80px;
 }
@@ -647,7 +661,7 @@ main .hero__btn:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
 }
 
 .triangle__result {
@@ -706,6 +720,13 @@ main .hero__btn:hover {
 .enumeration__link {
   margin-top: 100px;
   padding-right: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #999999;
 }
 
 .enumeration .info__width {
@@ -725,7 +746,7 @@ main .hero__btn:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
 }
 
 .enumeration__btn {
@@ -781,7 +802,7 @@ main .hero__btn:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
 }
 
 .trust__pluses {
@@ -879,6 +900,14 @@ main .hero__btn:hover {
   background-color: #fff;
 }
 
+.vantage__item_desc {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #999999;
+}
+
 .vantage .triangle__topright::before {
   content: '';
   position: absolute;
@@ -922,7 +951,7 @@ main .hero__btn:hover {
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #3c3c3c;
 }
 
 .cooperation__subtitle {
@@ -931,7 +960,8 @@ main .hero__btn:hover {
   font-size: 14px;
   line-height: 25px;
   letter-spacing: 0.01em;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
+  margin-top: 30px;
 }
 
 .cooperation__form {
@@ -1060,7 +1090,7 @@ main .hero__btn:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #999999;
   margin-bottom: 30px;
 }
 
@@ -1302,7 +1332,7 @@ footer {
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.02em;
-  color: rgba(0, 0, 0, 0.8);
+  color: #a4a4a4;
   margin: unset;
 }
 /*# sourceMappingURL=style.css.map */

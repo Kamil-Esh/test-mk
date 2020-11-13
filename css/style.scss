@@ -1,10 +1,12 @@
 html {
     scroll-behavior: smooth;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 a:hover {
     text-decoration: none;
     color: inherit;
@@ -42,11 +44,17 @@ img {
             font-family: 'Source Sans Pro', sans-serif;
             font-weight: 300;
             line-height: 20px;
-            color: rgba(0, 0, 0, 0.8);
+            color: #949494;
             margin-right: 13px;
         }
 
-        &_language {}
+        &_language {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+            color: #717171;
+
+        }
 
         &_rightside {
             width: 460px;
@@ -135,7 +143,7 @@ main {
             font-weight: 300;
             font-size: 15px;
             line-height: 25px;
-            color: rgba(0, 0, 0, 0.8);
+            color: #2d2e2f;
         }
 
         &__btn {
@@ -178,23 +186,26 @@ main {
 
 .owl-carousel {
     position: relative;
+
     .owl-prev {
         position: absolute;
-        bottom: 24%;
+        bottom: 21%;
         left: 392px;
-        transform: translate(50%,50%);
+        transform: translate(50%, 50%);
         outline: none !important;
+
         span {
             font-size: 40px;
         }
     }
-    
+
     .owl-next {
         position: absolute;
-        bottom: 24%;
-        left: 449px;
-        transform: translate(50%,50%);
+        bottom: 21%;
+        left: 451px;
+        transform: translate(50%, 50%);
         outline: none !important;
+
         span {
             font-size: 40px;
         }
@@ -213,7 +224,7 @@ main {
         position: absolute;
         bottom: 50%;
         right: 50%;
-        transform: translate(50%,50%);
+        transform: translate(50%, 50%);
         left: -42px;
         outline: none;
     }
@@ -222,25 +233,29 @@ main {
         position: absolute;
         bottom: 50%;
         right: 50%;
-        transform: translate(50%,50%);
+        transform: translate(50%, 50%);
         left: 1184px;
         outline: none;
     }
 }
+
 .slider {
     position: relative;
     min-height: 514px;
+
     .slick-prev {
         position: absolute;
         top: 110%;
         left: 91%;
     }
+
     .slick-next {
         position: absolute;
         top: 110%;
         left: 95%;
     }
 }
+
 .slick-dots li button:before {
     content: '';
     position: absolute;
@@ -257,6 +272,7 @@ main {
     background: #DEC377;
     top: 45px;
 }
+
 .advantages {
     margin-top: -100px;
     display: flex;
@@ -313,7 +329,7 @@ main {
         font-weight: 300;
         font-size: 15px;
         line-height: 25px;
-        color: rgba(0, 0, 0, 0.8);
+        color: #999999;
         margin-left: 70px;
         padding-bottom: 60px;
     }
@@ -398,7 +414,7 @@ main {
         font-weight: 300;
         font-size: 15px;
         line-height: 25px;
-        color: rgba(0, 0, 0, 0.8);
+        color: #999999;
     }
 }
 
@@ -443,7 +459,7 @@ main {
         font-size: 14px;
         line-height: 25px;
         letter-spacing: 0.01em;
-        color: rgba(0, 0, 0, 0.8);
+        color: #b2b2b2;
 
     }
 
@@ -454,7 +470,7 @@ main {
         line-height: 20px;
         letter-spacing: 0.02em;
         text-transform: uppercase;
-        color: rgba(0, 0, 0, 0.5);
+        color: #afafaf;
         display: inline-block;
         margin-bottom: 65px;
     }
@@ -484,6 +500,7 @@ main {
     .slider_settings {
         min-width: 0;
     }
+
     .testimonials__slider {
         min-width: 0;
     }
@@ -500,7 +517,7 @@ main {
             font-weight: 300;
             font-size: 15px;
             line-height: 25px;
-            color: rgba(0, 0, 0, 0.8);
+            color: #999999;
             margin-right: 100px;
         }
 
@@ -531,6 +548,11 @@ main {
         display: flex;
         justify-content: space-around;
         margin-bottom: 107px;
+    }
+
+    &__partners img {
+        object-fit: contain;
+        filter: grayscale(100%);
     }
 
 }
@@ -571,7 +593,7 @@ main {
         font-weight: 300;
         font-size: 15px;
         line-height: 25px;
-        color: rgba(0, 0, 0, 0.8);
+        color: #999999;
     }
 
     &__result {
@@ -628,6 +650,14 @@ main {
     &__link {
         margin-top: 100px;
         padding-right: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #999999;
+
     }
 
     .info__width {
@@ -647,7 +677,7 @@ main {
         font-weight: 300;
         font-size: 15px;
         line-height: 25px;
-        color: rgba(0, 0, 0, 0.8);
+        color: #999999;
 
     }
 
@@ -698,7 +728,7 @@ main {
         font-weight: 300;
         font-size: 15px;
         line-height: 25px;
-        color: rgba(0, 0, 0, 0.8);
+        color: #999999;
 
     }
 
@@ -787,6 +817,15 @@ main {
         width: 100%;
         padding: 40px 0 45px 50px;
         background-color: #fff;
+
+        &_desc {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 25px;
+            color: #999999;
+
+        }
     }
 
     .triangle__topright::before {
@@ -828,7 +867,7 @@ main {
         font-family: 'Lato', sans-serif;
         font-size: 15px;
         line-height: 25px;
-        color: rgba(0, 0, 0, 0.8);
+        color:#3c3c3c;
     }
 
     &__subtitle {
@@ -837,7 +876,8 @@ main {
         font-size: 14px;
         line-height: 25px;
         letter-spacing: 0.01em;
-        color: rgba(0, 0, 0, 0.8);
+        color: #999999;
+        margin-top: 30px;
     }
 
     &__form {
@@ -932,7 +972,7 @@ main {
         font-weight: 300;
         font-size: 15px;
         line-height: 25px;
-        color: rgba(0, 0, 0, 0.8);
+        color: #999999;
         margin-bottom: 30px;
     }
 
@@ -1157,6 +1197,6 @@ footer {
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    color: rgba(0, 0, 0, 0.8);
+    color: #a4a4a4;
     margin: unset;
 }

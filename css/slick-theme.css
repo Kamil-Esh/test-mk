@@ -44,11 +44,11 @@
 .slick-prev
 {
     background: url('../images/Vector.png') no-repeat center/cover;
-    left: -25px;
+    left: -50px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: -50px;
     left: auto;
 }
 .slick-prev:before
@@ -63,12 +63,12 @@
 .slick-next
 {
     background: url('../images/Vector2.png') no-repeat center/cover;
-    right: -25px;
+    right: -50px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: -50px;
 }
 .slick-next:before
 {
